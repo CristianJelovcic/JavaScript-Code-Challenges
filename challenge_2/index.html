@@ -171,7 +171,7 @@
 
 		//3)El objeto global window tiene un evento llamado resize. Este evento se dispara cada vez que el navegador cambia de tamaño, es decir, cuando se minimiza o maximiza. Asignarle un evento que sea capaz de cambiarle el color de fonto al body por rojo si estamos a mas de 600px y azul si estamos a menos.
 		window.addEventListener("resize",function(){
-			if (window.outerWidth > 600) {
+			if (window.outerWidth > 1000) {
 				document.body.style.backgroundColor = 'red'
 			}else{
 				document.body.style.backgroundColor = 'blue'
